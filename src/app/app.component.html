@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand">Backoffice</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-item nav-link" routerLink="agregar-empleado">Agregar Cliente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" routerLink="listar-empleado">Lista Clientes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container"> 
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="text-white text-center text-lg-start bg-primary">
+    <div class="container p-4" style="font-size: 13px;">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="mb-4">Desarrollado por Jsan.</h5>
+  
+          <p>
+            Somos una empresa centrada en la resolución de problemas, nos actualizamos constantemente, somos una empresa dedicada al 
+            y con buenos estándares.
+          </p>
+  
+        </div>
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="mb-4 pb-1">Direccion</h5>
+
+  
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Bogota, CRA 78F# 39A-04 SUR</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">jacobugat@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 57-3015096837</span>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="mb-4">Hora de contacto</h5>
+  
+          <table class="table text-center text-white">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Lun - Jue:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Vie - Sab:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Dom:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://jhon-portfolio.rf.gd">jhon-portfolio.rf.gd</a>
+    </div>
+  </footer>

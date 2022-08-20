@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1000px) {
+    #no-more-tables tbody, 
+    #no-more-tables tr, 
+    #no-more-tables td {
+      display: block;
+      font-size: 12.5px;
+    }
+    #no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      border-bottom: 1px solid #eee;
+    }
+    #no-more-tables td {
+      position: relative;
+      padding-left: 50%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    #no-more-tables td:before{
+      content: attr(data-title);
+      position: absolute;
+      left: 1px;
+      font-weight: 600;
+      
+    }
+    #no-more-tables tr {
+      border-bottom: 1px solid #ccc;
+      height: 350px;
+    }
+    .card {
+      padding: 0px;
+    }
+
+}
